@@ -25,7 +25,7 @@
             android:layout_column="0"
             android:layout_columnWeight="2"
             android:layout_span="4"
-            android:layout_height="80dp"
+            android:layout_height="100dp"
             android:layout_width="271dp"
             />
 
@@ -39,7 +39,7 @@
             android:textOff="No         Preload"
             android:textOn="preload"
             android:textSize="20dp"
-            android:layout_height="85dp"
+            android:layout_height="115dp"
             android:layout_width="150dp"
             android:layout_column="0"
             android:onClick="#000000"
@@ -50,7 +50,7 @@
             android:textOn="Reach"
             android:textSize="20dp"
             android:layout_column="1"
-            android:layout_height="85dp"
+            android:layout_height="115dp"
             android:layout_width="150dp"
             android:checked="false"
             android:layout_gravity="right"
@@ -62,14 +62,14 @@
             android:layout_column="2"
             android:textSize="18dp"
             android:layout_width="150dp"
-            android:layout_height="85dp"
+            android:layout_height="115dp"
             android:layout_gravity="right"
             />
 
         <ToggleButton
             android:textOff="Not        Spybot"
             android:textOn="SpyBot"
-            android:layout_height="85dp"
+            android:layout_height="115dp"
             android:layout_width="150dp"
             android:textSize="20dp"
             android:layout_gravity="right"
@@ -90,7 +90,9 @@
             android:layout_span="2"
             android:id="@+id/textView"
             android:layout_column="1"
-            android:gravity="center|bottom" />
+            android:gravity="center|bottom"
+            android:textSize="28dp"/>
+
     </TableRow>
 
     <TableRow
@@ -99,7 +101,7 @@
 
         <ToggleButton
             android:layout_width="100dp"
-            android:layout_height="130dp"
+            android:layout_height="115dp"
             android:textSize="15dp"
             android:id="@+id/button"
             android:layout_column="0"
@@ -111,7 +113,7 @@
             android:textOff="No                      Moat"
             android:textOn="Moat"
             android:layout_width="100dp"
-            android:layout_height="130dp"
+            android:layout_height="115dp"
             android:textSize="15dp"
             android:id="@+id/button2"
             android:layout_column="1"
@@ -121,7 +123,7 @@
         <ToggleButton
             android:textOff="No         Drawbridge"
             android:textOn="Drawbridge"
-            android:layout_height="130dp"
+            android:layout_height="115dp"
             android:layout_width="100dp"
             android:textSize="15dp"
             android:layout_column="2"
@@ -131,7 +133,7 @@
         <ToggleButton
             android:textOff="No         Rockwall"
             android:textOn="Rockwall"
-            android:layout_height="130dp"
+            android:layout_height="115dp"
             android:layout_width="100dp"
             android:textSize="15dp"
             android:layout_column="3"
@@ -147,17 +149,17 @@
             android:textOff="No   Cheval             De Frise"
             android:textOn="Cheval de Frise"
             android:layout_column="0"
-            android:layout_height="130dp"
+            android:layout_height="115dp"
             android:layout_width="135dp"
             android:textSize="13dp"
-            android:layout_gravity="right|bottom"
+            android:layout_gravity="right"
             />
 
         <ToggleButton
             android:textOff="No         Ramparts"
             android:textOn="Ramparts"
             android:layout_column="1"
-            android:layout_height="130dp"
+            android:layout_height="115dp"
             android:layout_width="135dp"
             android:textSize="15dp"
             android:layout_gravity="fill"
@@ -168,7 +170,7 @@
             android:textOn="Sallyport"
             android:textSize="15dp"
             android:layout_column="2"
-            android:layout_height="130dp"
+            android:layout_height="115dp"
             android:layout_width="135dp"
             android:layout_gravity="fill"
             />
@@ -178,7 +180,7 @@
             android:textOn="Rough terrian"
             android:textSize="13dp"
             android:layout_column="3"
-            android:layout_height="130dp"
+            android:layout_height="115dp"
             android:layout_width="135dp"
             />
     </TableRow>
@@ -194,7 +196,7 @@
             android:layout_column="1"
             android:layout_columnWeight="2"
             android:layout_span="2"
-            android:layout_height="115dp"
+            android:layout_height="112dp"
             />
     </TableRow>
 
@@ -207,7 +209,7 @@
             android:layout_column="0"
             android:layout_columnWeight="2"
             android:layout_span="2"
-            android:layout_height="120dp"
+            android:layout_height="112dp"
             android:textSize="23dp"
             />
 
@@ -216,7 +218,7 @@
             android:layout_column="2"
             android:layout_columnWeight="2"
             android:layout_span="2"
-            android:layout_height="120dp"
+            android:layout_height="112dp"
             android:textSize="23dp"
             />
     </TableRow>
@@ -229,7 +231,7 @@
             android:textOff="No Tortuga"
             android:textOn="Tortuga"
             android:layout_column="0"
-            android:layout_height="120dp"
+            android:layout_height="112dp"
             android:layout_columnWeight="2"
             android:layout_span="2"
             android:textSize="23dp"
